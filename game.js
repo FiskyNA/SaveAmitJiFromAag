@@ -144,14 +144,14 @@ function draw() {
 
         ctx.font = 'bold 20px Arial';
         ctx.fillStyle = '#FFD700';
-        ctx.fillText('Made By - Kaddu Iinterprises', canvas.width / 2, 250);
+        ctx.fillText('Made By - OG ADI', canvas.width / 2, 250);
         
         ctx.fillStyle = '#fff';
         ctx.font = '18px Arial';
         ctx.fillText('Up - Use SpaceBar To Jump', canvas.width / 2, 300);
         ctx.fillText('Down - Use CTRL to Get Downward', canvas.width / 2, 330);
         ctx.font = '16px Arial';
-        ctx.fillText('Game made In (duration) - 12 minutes', canvas.width / 2, 380);
+        ctx.fillText('Game made In (duration) - 69 Secs', canvas.width / 2, 380);
         
         ctx.font = 'bold 22px Arial';
         ctx.fillStyle = '#00FF00';
@@ -199,4 +199,5 @@ canvas.addEventListener('mousedown', () => {
 });
 
 createPipe();
+
 gameLoop();
